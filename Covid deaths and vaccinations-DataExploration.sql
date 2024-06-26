@@ -4,7 +4,7 @@ order by 3, 4										  --In some cases continents are just empty space.
 
 Select location, date, total_cases, new_cases, total_deaths, population
 From PortfolioDs..coviddeaths
-Order by location, convert(date, date, 103) --Style 103 means dd/mm/yy
+Order by location, convert(date, date, 103)
 --
 
 --Looking total cases vs total deaths
